@@ -5628,7 +5628,7 @@ if (typeof cornerstoneTools === 'undefined') {
             cornerstoneTools.drawCircle(context, handleCanvas, color, lineWidth);
 
             if (data.active) {
-              config.setAnnotationInfoCallback(measurementData);
+              config.setAnnotationInfoCallback(data);
             }
 
             var handleOptions = {
